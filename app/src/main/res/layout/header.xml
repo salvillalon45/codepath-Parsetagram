@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="#252121"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnCamera"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/camera_header" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00DA1111"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp">
+
+        <Button
+            android:id="@+id/btnLogo"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:background="@drawable/logo_header" />
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00DA1111"
+            android:scaleType="fitXY" />
+    </FrameLayout>
+
+<!--    &lt;!&ndash; Header &ndash;&gt;-->
+<!--    <include-->
+<!--        layout="@layout/action_view_progress_bar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+    <ImageButton
+        android:id="@+id/ibNewPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="24dp"
+        android:backgroundTint="#00DA1111"
+        android:tint="#DCD4D4"
+        app:srcCompat="@drawable/direct_message_header" />
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/footer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="#252121"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/ibHome"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="335dp"
+        android:backgroundTint="#00DA1111"
+        android:tint="#FFFFFF"
+        app:srcCompat="@drawable/home_footer" />
+
+    <ImageButton
+        android:id="@+id/ibSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="266dp"
+        android:backgroundTint="#00DA1111"
+        android:tint="#DCD4D4"
+        app:srcCompat="@drawable/ic_vector_search_stroke" />
+
+    <ImageButton
+        android:id="@+id/ibNewPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="183dp"
+        android:backgroundTint="#00DA1111"
+        android:tint="#DCD4D4"
+        app:srcCompat="@drawable/new_post_footer" />
+
+    <ImageButton
+        android:id="@+id/ibLikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="102dp"
+        android:backgroundTint="#00DA1111"
+        android:tint="#DCD4D4"
+        app:srcCompat="@drawable/likes_footer" />
+
+    <ImageButton
+        android:id="@+id/ibUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#00DA1111"
+        android:tint="#DCD4D4"
+        app:srcCompat="@drawable/user_footer" />
+
+
+</RelativeLayout>
