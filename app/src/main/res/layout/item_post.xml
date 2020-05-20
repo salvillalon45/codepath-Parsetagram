@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:text="salvador villalon" />
+    
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:textColor="#151313"
+        tools:text="my first post" />
+
+    <TextView
+        android:id="@+id/tvCreateAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        tools:text="Today" />
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <ImageButton
+            android:id="@+id/ibLikes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="342dp"
+            android:backgroundTint="#00DA1111"
+            android:tint="#151313"
+            app:srcCompat="@drawable/likes_footer" />
+
+        <ImageButton
+            android:id="@+id/ibComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="282dp"
+            android:backgroundTint="#00DA1111"
+            android:tint="#FF151313"
+            app:srcCompat="@drawable/home_footer_v2" />
+
+        <ImageButton
+            android:id="@+id/ibMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="222dp"
+            android:backgroundTint="#00DA1111"
+            android:tint="#151313"
+            app:srcCompat="@drawable/direct_message_header" />
+
+        <ImageButton
+            android:id="@+id/ibSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="11dp"
+            android:backgroundTint="#00DA1111"
+            android:tint="#FF151313"
+            app:srcCompat="@drawable/save_button" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

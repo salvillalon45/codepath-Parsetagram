@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:backgroundTint="#A61515"
+        android:icon="@drawable/home_footer"
+        android:tint="#770D0D"
+        android:visible="true"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_vector_search_stroke"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/action_compose"
+        android:icon="@drawable/new_post_footer"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/action_likes"
+        android:icon="@drawable/likes_footer"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/user_footer"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+
+</menu>
